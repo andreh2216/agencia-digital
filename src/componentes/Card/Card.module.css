@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+}
+
+.card{
+    margin-top: 50px;
+    gap: 5px;
+    width: 320px;
+    border: 1px solid #dbdee7;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.card_dark{
+    background-color: #393838;
+    
+}
+
+.paragrafo_dark{
+    color: #9F9F9F;
+}
+
+.subtitulo_dark{
+    color: #fff;
+}
+
+.card:hover{
+    background-color: #feb633;
+
+    border:1px solid #edecec;
+}
+
+.paragrafo{
+    color: #8a8fa3;
+}
+
+.paragrafo:nth-child(4){
+    margin-top: 20px;
+}
+
+@media screen and (max-width:768px) {
+        .card{
+
+            width: 95%;
+        
+        }
+    }
+

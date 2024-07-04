@@ -1,0 +1,158 @@
+.container{
+    height: 800px;
+    width: 100%;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f6f8fc;
+}
+
+ .subtitulo{
+  
+
+    font-family: 'Poppins';
+    color: #32333c;
+    font-size: 47px;
+}
+
+.subtitulo::after{
+    content: "";
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 90px;
+    height:5px;
+    background-color: #feb633;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.subtitulo_dark::after{
+    content: "";
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 90px;
+    height:5px;
+    background-color: #feb633;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragrafo{
+    margin-top: 23px;
+    width: 750px;
+    text-align: center;
+    font-family: 'Poppins';
+    color: #8a8fa3;
+  
+}
+
+ .container_texto{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 60%;
+   margin: 0 auto;
+   
+}
+
+.container_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.subtitulo_dark{
+    color: #CCCCCC;
+    
+    font-family: 'Poppins';
+    
+    font-size: 47px;
+}
+
+.container_dark{
+
+    background-color: #32333c;
+    color: #CCCCCC;
+ 
+    height: 800px;
+    width: 100%;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+@media screen and (min-width:376px) and (max-width:768px){
+   .container .paragrafo{
+        width: 100%;
+    }
+
+    .container{
+        height: 1600px;
+     
+       
+    }
+
+    .container_dark .paragrafo{
+        width: 100%;
+    }
+
+    .container_dark{
+        height: 1600px;
+    }
+
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+   .container{
+    height: 1200px;
+    width: 100%;
+   }
+   .container_dark{
+    height: 1200px;
+    width: 100%;
+   }
+}
+
+@media screen and (max-width:375px){
+    .container{
+        height: 1600px ;
+        width: 100vw;
+        
+        
+    }
+
+        .container_dark{
+           
+                height: 1600px ;
+                width: 100vw;
+                
+          
+        }
+
+  .paragrafo{
+        width: 100vw;
+    }
+    .subtitulo{
+        width: 100vw;
+    }
+    .container_texto{
+        width: 100vw;
+    }
+}

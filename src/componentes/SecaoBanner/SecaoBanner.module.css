@@ -1,0 +1,146 @@
+.container{
+    height: 600px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+   
+}
+.container .imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  
+    height: 100%;
+}
+
+.texto{
+    background-color: #fafbfc;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 20px;
+ 
+
+    height: 100%;
+    color: #022144;
+}
+
+.texto p{
+    font-size: 15px;
+    
+}
+
+.texto h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.texto span{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.imagem_dark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  
+    height: 100%;
+    background-color: #252525;
+}
+
+@media screen and (min-width:376px) and (max-width:768px){
+
+    .texto{
+        width: 100%;
+        margin: 0;
+  
+       
+    }
+
+    .imagem_pessoa{
+        display: none;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+
+    
+    .imagem{
+        width: 50%;
+    }
+
+    .imagem_dark{
+        width: 50%;
+    }
+
+   
+
+    .texto p{
+        font-size: 18px;
+        
+    }
+    
+    .texto h2{
+        font-size: 48px;
+        font-weight: 400;
+    }
+    
+    .texto span{
+        font-weight: bold;
+        font-size: 48px;
+    }
+    
+    
+
+}
+
+
+@media screen and (max-width:375px){
+    .texto{
+        width: 100%;
+        margin: 0;
+  
+       
+    }
+
+    .imagem_pessoa{
+        display: none;
+    }
+
+    .texto p{
+        font-size: 20px;
+        text-align: left;
+        width: 300px;
+        
+    }
+    
+    .texto h2{
+        font-size: 50px;
+        font-weight: 400;
+    }
+    
+    .texto span{
+        font-weight: bold;
+        font-size: 50px;
+    }
+}
+
+
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .texto, .imagem{
+        width: 50%;
+    }
+
+    .imagem_dark{
+        width: 50%;
+    }
+
+   
+}
